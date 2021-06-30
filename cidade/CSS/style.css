@@ -1,0 +1,27 @@
+* {
+    font-family:"pangolin"
+    
+}
+
+div.caixa{
+    display: inline-block;
+    background-color: cornflowerblue;
+    border: black;
+    border:3px solid black;
+}
+
+div.caixa2{
+    display: inline-block;
+    background-color: crimson;
+    border: 10px solid black
+}
+
+div.caixa3{
+    display: inline-block;
+    background-color: darkgoldenrod;
+    border: 5px dotted black;
+}
+
+.icone{
+    width: 50px;
+}

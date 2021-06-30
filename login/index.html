@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENEM 2022</title>
+</head>
+
+<body>
+    <h1> Cadastro ENEM 2022</h1>
+    <form action="/logar" method="POST">
+
+        <div>
+            <label for="email">Email </label>
+            <input type="email" id='email' name='email'>
+        </div>
+        <br>
+        <div>
+            <label for="Password">Senha</label>
+            <input type="password" id="Password" nome='Senha'>
+        </div>
+        <br>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id='nome' name='nome1'>
+        </div>
+        <br>
+        <div>
+            <label for="radio">Sexo:</label>
+            <br>
+             <input type="radio" id='radio' name='Sexo' value='Feminino'>
+             <label for="radio">Feminino</label>
+             <input type="radio" id='radio1' name='Sexo' value='Masculino'>
+             <label for="radio1">Masculino</label>
+             <input type="radio" id='radio3' name='Sexo' value='Não binário'>
+             <label for="radio3">Não binário</label>
+        </div>
+        <br>
+        <div>
+            <label for="CPF">CPF/CNPJ</label>
+            <input type="text" id='CPF' name='CPF' value=''>
+        </div>
+        <br>
+        <div>
+            <label for="Endereco">Endereço</label>
+            <input type="text" id='Endereco' name='Endereco' value=''>
+        </div>
+        <br>
+        <div>
+            <label for="Equipamentos">Marque os aparelhos que possue em casa:</label>
+            <br>
+        <div>
+            <label for='Equipamentos'>Computador</label>
+            <input type="checkbox" name='Equipamentos' value='Computador'>
+            <label for='Equipamentos'>Notebook</label>
+            <input type="checkbox" name='Equipamentos' value='Notebook'>
+            <label for='Equipamentos'>Smatphone</label>
+            <input type="checkbox" name='Equipamentos' value='smartphone'>
+        </div>
+        <div>
+            <label for='Equipamentos'>Smartv</label>
+            <input type="checkbox" name='Equipamentos' value='Smartv'>
+            <label for='Equipamentos'>Geladeira</label>
+            <input type="checkbox" name='Equipamentos' value='Geladeira'>
+            <label for='Equipamentos'>Fogão</label>
+            <input type="checkbox" name='Equipamentos' value='Fogão'>
+        </div>
+            <label for='Equipamentos'>Maquina de lavar roupa</label>
+            <input type="checkbox" name='Equipamentos' value='Maquina de lavar roupa'>
+            <label for='Equipamentos'>Lavalouças</label>
+            <input type="checkbox" name='Equipamentos' value='Lavalouças'>
+            <label for='Equipamentos'>Ar condicionado</label>
+            <input type="checkbox" name='Equipamentos' value='Ar condicionado'>
+        </div>
+        <br>
+            <div>
+            <label for="Endereco">Data de nascimento</label>
+            <input type="date" id='Data de nascimento' name='Data de nascimento' value=''>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
